@@ -1,105 +1,67 @@
-<div align="center">
+# Macifier
 
-# ⌘ Macifier
+Bring your Mac keyboard muscle memory to Windows. Macifier remaps the keyboard so
+`⌘C` / `⌘V`, app switching, word navigation, a clipboard manager and Mac-style
+screenshots work the way they do on macOS — one lightweight tray app, no scripts.
 
-### Your Mac keyboard, finally on Windows.
+## Download
 
-**Forced onto a Windows PC?** Macifier remaps the keyboard so `⌘C`, `⌘V`, app switching, and word jumps work *exactly* like your Mac — one tiny tray app, no AutoHotkey scripts.
+Grab the latest installer from the **[Releases page](https://github.com/layatai/macifier-app/releases/latest)**
+or from **[macifier.com](https://macifier.com)**. Requires Windows 10 or 11.
 
-[**→ Get Macifier**](https://macifier.app) · [Download the free build](https://github.com/layatai/macifier-app/releases/latest) · [macifier.app](https://macifier.app)
-
-![Windows 10 & 11](https://img.shields.io/badge/Windows-10%20%26%2011-0078D6?logo=windows&logoColor=white)
-![One-time purchase](https://img.shields.io/badge/pricing-one--time%20%2419-3b82f6)
-![Built with .NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white)
-
-</div>
-
----
-
-## The problem
-
-You learned every shortcut on a Mac. Then work handed you a Windows laptop, and now `⌘C` does nothing, your thumb hits the wrong modifier a hundred times a day, and there's no clipboard history. Muscle memory you spent years building, gone.
-
-## The fix
-
-Macifier sits quietly in your system tray and translates your Mac habits into Windows on the fly. Install it, and your PC just *feels* right — in under a minute.
-
-```
-⌘ C   →   Copy            ⌘ `        →   Switch app windows
-⌘ V   →   Paste           ⌘ ⇧ V      →   Clipboard history
-⌘ Tab →   Switch apps     ⌥ ← / →    →   Jump by word
-```
-
----
-
-## What you get
-
-| | |
+| Edition | What you get |
 |---|---|
-| **⌘ Swap Cmd and Ctrl** | Alt becomes Command, Ctrl becomes Option — copy, paste, and select-all land where your fingers expect. |
-| **📋 Clipboard manager** | `Alt + Shift + V` opens a searchable history of everything you've copied — text and images. |
-| **🪟 App window switching** | `Alt + ` ` cycles windows of the same app, just like macOS. `Alt + Tab` still switches apps. |
-| **↔ Word navigation** | `Alt + Arrow` jumps word-by-word and line-to-line across every app. |
-| **📸 Mac-style screenshots** | `Alt + Shift + 3` for full screen, `Alt + Shift + 4` for a region — saved straight to your Desktop. |
-| **⌨ Terminal-aware** | In cmd, PowerShell, and Windows Terminal, Ctrl stays native — so `Ctrl + C` still interrupts instead of copying. |
-| **🌗 Native & lightweight** | One tiny tray app in C#. No AutoHotkey scripts, no registry hacks. Follows your Windows light/dark theme. |
+| **Free** | Fully featured: Alt↔Ctrl swap, copy/paste, clipboard manager, window switcher, Mac screenshots, word navigation, terminal-aware Ctrl, tray + light/dark themes. |
+| **Pro** | Everything in Free, plus a signed installer, automatic in-app updates, priority support, and an upcoming Monosnap-style markup editor. Activate with the license key from your purchase via the tray menu. |
 
----
+## Features
 
-## Shortcut reference
+- **Alt ↔ Ctrl swap** — Alt acts like Command (⌘), Ctrl like Option (⌥), matching macOS.
+- **macOS copy/paste** — `Alt + C` / `Alt + V` map to Copy / Paste.
+- **Clipboard manager** — `Alt + Shift + V` opens clipboard history (text and images).
+- **Window switcher** — `Alt + \`` cycles windows of the same application.
+- **Mac screenshots** — `Alt + Shift + 3/4/5` capture the screen / a region / the Snipping Tool, saved to the Desktop.
+- **Word navigation** — `Alt + Arrow` maps to Ctrl+Arrow.
+- **Terminal-aware Ctrl** — Ctrl+C / Ctrl+Z keep working natively in consoles.
+- **Auto-start & tray** — runs quietly in the system tray, optional launch at sign-in.
 
-| On a Mac | With Macifier | Result |
-|----------|---------------|--------|
-| `⌘ C` | `Alt + C` | Copy |
-| `⌘ V` | `Alt + V` | Paste |
-| `⌘ Tab` | `Alt + Tab` | Switch apps |
-| `⌘ ` ` | `Alt + ` ` | Switch app windows |
-| `⌘ ⇧ V` | `Alt + ⇧ + V` | Clipboard manager |
-| `⌥ ←` | `Alt + ←` | Move by word |
-| `⌘ ⇧ 3` | `Alt + ⇧ + 3` | Screenshot → Desktop |
-| `⌘ ⇧ 4` | `Alt + ⇧ + 4` | Region → Desktop |
+One native app using low-level keyboard hooks — no SharpKeys registry edits and no
+AutoHotkey scripts to maintain.
 
----
+## Installation
 
-## Why not just AutoHotkey?
+1. Download `Macifier_Setup_vX.Y.exe` from the [Releases page](https://github.com/layatai/macifier-app/releases/latest).
+2. Run the installer.
+3. Macifier launches into the system tray. Right-click the tray icon to configure.
 
-You *can* stitch this together with SharpKeys and AutoHotkey scripts. Or you can install one app and be done.
+## Usage
 
-| | Macifier | SharpKeys + AutoHotkey |
-|---|:---:|:---:|
-| Setup | One installer, runs instantly | Edit the registry + write scripts |
-| How many tools | One tray app | Two separate tools |
-| Terminal-aware Ctrl | ✅ Built in | Hand-rolled per script |
-| Clipboard manager | ✅ Included | Not included |
-| Updates | ✅ Lifetime, automatic | Maintain it yourself |
-| Turn it off | Toggle or quit | Undo registry changes |
+1. **Settings** — right-click the tray icon.
+2. **Enable/Disable** — toggle key mapping on or off.
+3. **Clipboard manager** — press `Alt + Shift + V` for history.
+4. **Auto-start** — enable "Start with Windows" to launch on boot.
+5. **Activate Pro** — tray menu → "Enter license key…".
+6. **Exit** — right-click the tray icon → Exit.
 
----
+## Key Mappings
 
-## Get it
+| macOS | Windows (Macifier) | Result |
+|---|---|---|
+| ⌘ (Command) | Alt | Swapped with Ctrl |
+| ⌥ (Option) | Ctrl | Swapped with Alt |
+| ⌘ + C / V | Alt + C / V | Copy / Paste |
+| ⌘ + Tab | Alt + Tab | Switch applications |
+| ⌘ + Arrow | Alt + Arrow | Word navigation |
+| ⌘ + ` | Alt + ` | Switch windows of the same app |
+| ⌘ + Shift + V | Alt + Shift + V | Clipboard manager |
+| ⌘ + Shift + 3/4/5 | Alt + Shift + 3/4/5 | Screenshot → Desktop |
 
-- **Buy once, keep it forever — $19.** Lifetime updates, no subscription, use on all your personal PCs. → **[macifier.app](https://macifier.app)**
-- **Try the free build first.** Grab the [latest release](https://github.com/layatai/macifier-app/releases/latest) and see if it's for you.
+## Troubleshooting
 
-Backed by a **14-day money-back guarantee** — if it's not for you, email us for a full refund, no questions asked.
+- **Keys not remapping** — check that Macifier is enabled (right-click the tray icon).
+- **Permissions** — keyboard hooks may need elevation; run as administrator if mapping doesn't take effect.
+- **Updates** — Pro checks automatically; on Free use the tray "Check for updates".
 
-### Requirements
+## License
 
-- Windows 10 or 11 (64-bit)
-- Ships self-contained — nothing else to install, just run it
-
----
-
-## Pricing
-
-**$19 one-time** · ~~$29~~ launch price · lifetime updates · no subscription
-
-[**→ Get Macifier**](https://macifier.app)
-
----
-
-<div align="center">
-
-Made for Mac users who got handed a PC. · [macifier.app](https://macifier.app) · [layatai@gmail.com](mailto:layatai@gmail.com)
-
-</div>
+Macifier is proprietary software. © Macifier. All rights reserved.
