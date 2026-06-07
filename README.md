@@ -100,6 +100,6 @@ Backed by a **14-day money-back guarantee** — if it's not for you, email us fo
 
 <div align="center">
 
-Made for Mac users who got handed a PC. · [macifier.app](https://macifier.app) · [hello@macifier.app](mailto:hello@macifier.app)
+Made for Mac users who got handed a PC. · [macifier.app](https://macifier.app) · [layatai@gmail.com](mailto:layatai@gmail.com)
 
 </div>
