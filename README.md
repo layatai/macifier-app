@@ -64,7 +64,7 @@ window switching, screenshots, all of it. Pro adds the polish and peace of mind.
 | Signed installer — no SmartScreen warning | — | ✅ |
 | Automatic in-app updates | — | ✅ |
 | Priority support | — | ✅ |
-| Markup editor for screenshots *(coming soon)* | — | ✅ |
+| Markup editor for screenshots | — | ✅ |
 
 Buy Pro once for **$19** (~~$29~~ launch price), activate with the license key from
 the tray menu, and keep it forever — no subscription. Backed by a **14-day
