@@ -66,9 +66,11 @@ window switching, screenshots, all of it. Pro adds the polish and peace of mind.
 | Priority support | — | ✅ |
 | Markup editor for screenshots *(coming soon)* | — | ✅ |
 
-Buy Pro once, activate with the license key from the tray menu, and keep it forever.
+Buy Pro once for **$19** (~~$29~~ launch price), activate with the license key from
+the tray menu, and keep it forever — no subscription. Backed by a **14-day
+money-back guarantee**.
 
-**[Get Pro →](https://macifier.com)**
+**[Get Pro — $19 →](https://macifier.com)**
 
 ---
 
