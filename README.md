@@ -152,6 +152,6 @@ Macifier is proprietary software. © Macifier. All rights reserved.
 
 <div align="center">
 
-Made for Mac users who got handed a PC. · [macifier.com](https://macifier.com) · [layatai@gmail.com](mailto:layatai@gmail.com)
+Made for Mac users who got handed a PC. · [macifier.com](https://macifier.com) · [hello@macifier.com](mailto:hello@macifier.com)
 
 </div>
