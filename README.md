@@ -8,7 +8,7 @@
 switching, and word jumps work *exactly* like your Mac — one tiny tray app, no
 AutoHotkey scripts.
 
-**[⬇ Download free](https://github.com/layatai/macifier-app/releases/latest)** ·
+**[⬇ Download Macifier](https://github.com/layatai/macifier-app/releases/latest)** ·
 **[Get Pro →](https://macifier.com)** ·
 [macifier.com](https://macifier.com)
 
@@ -54,16 +54,15 @@ the fly.** Install it and your PC just *feels* right — in under a minute.
 
 ## Free vs Pro
 
-The free build is **fully featured** — every key mapping, the clipboard manager,
-window switching, screenshots, all of it. Pro adds the polish and peace of mind.
+Macifier is one download. Use the core app in Free mode, then enter a license key
+to unlock Pro instantly.
 
 | | Free | Pro |
 |---|:---:|:---:|
 | All key mappings & clipboard manager | ✅ | ✅ |
 | Window switcher, screenshots, word nav | ✅ | ✅ |
 | Terminal-aware Ctrl, tray, themes | ✅ | ✅ |
-| UniSpace Windows receiver | ✅ | ✅ |
-| Signed installer — no SmartScreen warning | — | ✅ |
+| UniSpace Windows receiver | Renewable 1-hour sessions | ✅ Unlimited |
 | Automatic in-app updates | — | ✅ |
 | Priority support | — | ✅ |
 | Markup editor for screenshots | — | ✅ |
@@ -109,7 +108,7 @@ install one app and be done.
 
 ## Install in under a minute
 
-1. **[Download the installer](https://github.com/layatai/macifier-app/releases/latest)** (`Macifier_Setup_vX.Y.exe`).
+1. **[Download the installer](https://github.com/layatai/macifier-app/releases/latest)** (`Macifier_Setup_vX.Y.exe`). Free and Pro use this same installer.
 2. Run it — Macifier launches straight into your system tray.
 3. Right-click the tray icon to configure, or just start typing the shortcuts you
    already know.
@@ -137,8 +136,8 @@ twice.
 No. Pro is a one-time purchase. Activate it once and keep it.
 
 **Can I try before I buy?**
-The free build is fully featured — use it as long as you like. Upgrade to Pro when
-you want the signed installer, automatic updates, and priority support.
+Free mode does not expire. Upgrade to Pro for unlimited UniSpace sessions,
+automatic updates, watermark-free screenshots, unlimited clipboard history, and priority support.
 
 ---
 
