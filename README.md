@@ -14,7 +14,7 @@ AutoHotkey scripts.
 
 ![Windows 10 & 11](https://img.shields.io/badge/Windows-10%20%26%2011-0078D6?logo=windows&logoColor=white)
 ![One-time purchase](https://img.shields.io/badge/Pro-one--time%20purchase-3b82f6)
-![Built with .NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white)
+![Built with .NET](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white)
 
 </div>
 
@@ -48,6 +48,7 @@ the fly.** Install it and your PC just *feels* right — in under a minute.
 | **📸 Mac-style screenshots** | `Alt + Shift + 3` for full screen, `Alt + Shift + 4` for a region — saved straight to your Desktop. |
 | **⌨ Terminal-aware** | In cmd, PowerShell, and Windows Terminal, Ctrl stays native — so `Ctrl + C` still interrupts instead of copying. |
 | **🌗 Native & lightweight** | One tiny tray app in C#. No AutoHotkey scripts, no registry hacks. Follows your Windows light/dark theme. |
+| **🖥 UniSpace receiver** | Join a UniSpace workspace and control this PC from a Mac keyboard and mouse over LAN or Tailscale. |
 
 ---
 
@@ -61,6 +62,7 @@ window switching, screenshots, all of it. Pro adds the polish and peace of mind.
 | All key mappings & clipboard manager | ✅ | ✅ |
 | Window switcher, screenshots, word nav | ✅ | ✅ |
 | Terminal-aware Ctrl, tray, themes | ✅ | ✅ |
+| UniSpace Windows receiver | ✅ | ✅ |
 | Signed installer — no SmartScreen warning | — | ✅ |
 | Automatic in-app updates | — | ✅ |
 | Priority support | — | ✅ |
