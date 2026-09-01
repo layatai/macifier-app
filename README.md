@@ -50,6 +50,12 @@ the fly.** Install it and your PC just *feels* right — in under a minute.
 | **🌗 Native & lightweight** | One tiny tray app in C#. No AutoHotkey scripts, no registry hacks. Follows your Windows light/dark theme. |
 | **🖥 UniSpace receiver** | Join a UniSpace workspace and control this PC from a Mac keyboard and mouse over LAN or Tailscale. |
 
+The UniSpace receiver reconnects only to the workspace's last accepted controller
+Mac. Repeated failures back off to one attempt per minute. In Control Center,
+**Refresh connection** retries immediately without restarting the Free or Pro
+session. **Restart Networking…** is available as a confirmed recovery action when
+the entire receiver connection must be rebuilt.
+
 ---
 
 ## Free vs Pro
@@ -146,6 +152,7 @@ automatic updates, watermark-free screenshots, unlimited clipboard history, and 
 - **Keys not remapping** — check that Macifier is enabled (right-click the tray icon).
 - **Permissions** — keyboard hooks may need elevation; run as administrator if mapping doesn't take effect.
 - **Updates** — Pro checks automatically; on Free, use the tray "Check for updates".
+- **UniSpace offline** — Macifier reconnects automatically; use **Refresh connection** for an immediate retry or **Restart Networking…** for a full reset.
 
 ---
 
